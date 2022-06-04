@@ -1,0 +1,5 @@
+(xây dựng cấu hình đầu tiên);
+repeat
+    (đưa ra cấu hình dạng có);
+    (từ cấu hình dạng có sinh ra các cấu hình kế tiếp nếu còn);
+until (hết cấu hình);

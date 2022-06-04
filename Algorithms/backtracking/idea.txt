@@ -1,0 +1,15 @@
+procedure Attempt(i);
+begin     
+    for(mọi giá trị V có thể gán cho x[i]) do
+        begin 
+            (thử cho x[i] := V);
+            if(x[i] là phần tử cuối cùng trong cấu hình) then 
+                (thông báo cấu hình tìm được)
+            else 
+                begin 
+                    (ghi nhận việc cho x[i] nhận giá trị V (nếu cần));
+                    Attempt(i+1); # gọi đệ quy để chọn tiếp x[i+1]
+                    (nếu cần, bỏ ghi nhận việc thứ x[i] := V để thử giá trị khác)
+                end;
+        end;
+end;
